@@ -23,7 +23,7 @@ int main(void)
     for (i = 0; i < 3; i++) {
         bookshelf[i] = (struct Book *)malloc(10 * sizeof(struct Book));
         if (bookshelf[i] == NULL) {
-            printf("메모리 할당 오류\n");
+            printf("memory allocation error\n");
             return 1;
         }
     }
