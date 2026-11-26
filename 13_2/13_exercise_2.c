@@ -7,7 +7,7 @@ struct Book {
     char title[20];
 };
 
-int main(void)
+void main(void)
 {
     struct Book *p;
 
