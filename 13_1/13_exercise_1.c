@@ -9,7 +9,7 @@ int main(void)
     /* 1. 동적 메모리 할당 (char 100개 = 100바이트) */
     pc = (char *)malloc(100 * sizeof(char));
     if (pc == NULL) {                 /* 할당 실패 검사 */
-        printf("메모리 할당 오류\n");
+        printf("memory allocation error\n");
         exit(1);
     }
 
